@@ -844,9 +844,6 @@ h6 {
   .button span:nth-child(1) {
     display: none
   }
-  .button {
-    padding: 1rem 1.5rem
-  }
 }
 @media (max-width:20em) {
   .title {
@@ -1039,7 +1036,8 @@ h6 {
 }
 @media (max-width:29.99875em) {
   .button {
-    width: 100%
+    width: 100%;
+    padding: 1rem 1.5rem
   }
   .item-how {
     white-space: normal;
