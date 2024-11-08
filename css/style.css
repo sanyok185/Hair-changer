@@ -314,13 +314,20 @@ h6 {
   border-radius: 31.25rem;
   aspect-ratio: 360/480!important;
   position: relative;
-  overflow: hidden
-}
-.hero__girl img {
-  transition: all .6s ease-out .4s;
+  overflow: hidden;
+  transition: all .9s ease-out .4s;
   opacity: 0;
   -webkit-transform: translate(0,.625rem);
-  transform: translate(0,.625rem);
+  transform: translate(0,.625rem)
+}
+.hero__girl._watcher-view {
+  opacity: 1;
+  -webkit-transform: translate(0);
+  transform: translate(0)
+}
+.hero__girl img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -328,11 +335,6 @@ h6 {
   left: 0;
   -o-object-fit: cover;
   object-fit: cover
-}
-.hero__girl img._watcher-view {
-  opacity: 1;
-  -webkit-transform: translate(0);
-  transform: translate(0)
 }
 .hero__shape {
   position: absolute;
@@ -375,6 +377,14 @@ h6 {
 .hero__comment {
   line-height: 1.5;
   color: #655c4c
+}
+.slide {
+  opacity: 0;
+  transition: opacity .7s ease-in-out
+}
+.active {
+  opacity: 1;
+  position: relative
 }
 .how {
   background: #fff9f9
