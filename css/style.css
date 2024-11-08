@@ -659,8 +659,18 @@ h6 {
 }
 .help__block {
   background: url(../img/help_bg.webp) center/cover no-repeat;
+  position: relative;
   border-radius: 1.125rem;
   overflow: hidden
+}
+.help__block img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover
 }
 .help__content {
   position: relative;
