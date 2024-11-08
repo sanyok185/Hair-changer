@@ -1000,7 +1000,7 @@ h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.25);
     z-index: 1
   }
 }
@@ -1203,7 +1203,6 @@ h6 {
 }
 @media (any-hover:hover) {
   .button:hover {
-    opacity: .8;
     color: #e6d5ec
   }
   .button:hover svg {
