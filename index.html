@@ -1,231 +1,262 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-	<title>AiHairStyle</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241109104725">
-	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<a href="" class="header__logo">AIHAIRSTYLE.IO</a>
-			</div>
-		</header>
-		<main class="page">
-			<section class="page__hero hero">
-				<div class="hero__container">
-					<h1 class="hero__title" data-watch>
-						Change Your Hairstyle with AI Makeover
-					</h1>
-					<div class="hero__text text" data-watch>
-						<p>
-							Discover your perfect style risk-free with our
-							cutting-edge AI technology. Try on countless hairstyles
-							and colors in seconds!
-						</p>
-					</div>
-					<div class="hero__bg-text">
-						<img data-src="img/hero/text.webp" srcset="img/hero/text.webp 1x, img/hero/text-ret.webp 2x" alt="Image" />
-					</div>
-					<div class="hero__images">
-						<div class="hero__frame">
-							<div class="hero__girl" data-watch>
-								<img data-src="img/girls/01.webp" srcset="img/girls/01.webp 1x, img/girls/01-ret.webp 2x" alt="Image" class="slide" />
-								<img data-src="img/girls/02.webp" srcset="img/girls/02.webp 1x, img/girls/02-ret.webp 2x" alt="Image" class="slide" />
-								<img data-src="img/girls/03.webp" srcset="img/girls/03.webp 1x, img/girls/03-ret.webp 2x" alt="Image" class="slide" />
-								<img data-src="img/girls/04.webp" srcset="img/girls/04.webp 1x, img/girls/04-ret.webp 2x" alt="Image" class="slide" />
-								<img data-src="img/girls/05.webp" srcset="img/girls/05.webp 1x, img/girls/05-ret.webp 2x" alt="Image" class="slide" />
-								<img data-src="img/girls/06.webp" srcset="img/girls/06.webp 1x, img/girls/06-ret.webp 2x" alt="Image" class="slide" />
+	@@include('html/_head.htm',{ "title":"AiHairStyle" })
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<h1 class="hero__title" data-watch>
+							Change Your Hairstyle with AI Makeover
+						</h1>
+						<div class="hero__text text" data-watch>
+							<p>
+								Discover your perfect style risk-free with our
+								cutting-edge AI technology. Try on countless hairstyles
+								and colors in seconds!
+							</p>
+						</div>
+						<div class="hero__bg-text">
+							<img data-src="@img/hero/text.png" srcset="img/hero/text.png 1x, img/hero/text-ret.png 2x" alt="Image" />
+						</div>
+						<div class="hero__images">
+							<div class="hero__frame">
+								<div class="hero__girl" data-watch>
+									<img data-src="@img/girls/01.jpg" srcset="img/girls/01.jpg 1x, img/girls/01-ret.jpeg 2x" alt="Image" class="slide"/>
+									<img data-src="@img/girls/02.jpg" srcset="img/girls/02.jpg 1x, img/girls/02-ret.jpeg 2x" alt="Image" class="slide"/>
+									<img data-src="@img/girls/03.jpg" srcset="img/girls/03.jpg 1x, img/girls/03-ret.jpg 2x" alt="Image" class="slide"/>
+									<img data-src="@img/girls/04.jpg" srcset="img/girls/04.jpg 1x, img/girls/04-ret.jpg 2x" alt="Image" class="slide"/>
+									<img data-src="@img/girls/05.jpg" srcset="img/girls/05.jpg 1x, img/girls/05-ret.jpg 2x" alt="Image" class="slide"/>
+									<img data-src="@img/girls/06.jpg" srcset="img/girls/06.jpg 1x, img/girls/06-ret.jpg 2x" alt="Image" class="slide"/>
+								</div>
+								<img
+									class="hero__shape"
+									src="@img/hero/shape.png"
+									srcset="img/hero/shape.png 1x, img/hero/shape-ret.png 2x"
+									alt="Image"
+									data-prlx-mouse
+									data-prlx-cx="30"
+									data-prlx-cy="30" />
+								<img
+									class="hero__heart"
+									src="@img/hero/heart.png"
+									srcset="img/hero/heart.png 1x, img/hero/heart-ret.png 2x"
+									alt="Image"
+									data-prlx-mouse
+									data-prlx-dxr
+									data-prlx-cx="40"
+									data-prlx-cy="40" />
+								<div
+									class="hero__block"
+									data-prlx-mouse>
+									30+ Hairstyles <br />
+									3 Hair colors
+								</div>
 							</div>
-							<img class="hero__shape" src="img/hero/shape.webp" srcset="img/hero/shape.webp 1x, img/hero/shape-ret.webp 2x" alt="Image" data-prlx-mouse data-prlx-cx="30" data-prlx-cy="30" />
-							<img class="hero__heart" src="img/hero/heart.webp" srcset="img/hero/heart.webp 1x, img/hero/heart-ret.webp 2x" alt="Image" data-prlx-mouse data-prlx-dxr data-prlx-cx="40" data-prlx-cy="40" />
-							<div class="hero__block" data-prlx-mouse>
-								30+ Hairstyles <br />
-								3 Hair colors
-							</div>
 						</div>
-					</div>
-					<a href="#" class="hero__button button" data-watch>
-						<span>Start Your Virtual Makeover</span>
-						<span>Start Your Makeover</span>
-						<svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
-							<path d="M13.3688 9.9921L3.74327 0.617694C2.89762 -0.205898 1.50477 -0.205898 0.659115 0.617694C-0.186542 1.44129 -0.186542 2.79779 0.659115 3.62138L8.71772 11.4939L0.634242 19.3665C-0.211414 20.1901 -0.211414 21.5466 0.634242 22.3702C1.05707 22.782 1.62913 23 2.17632 23C2.74838 23 3.29557 22.782 3.7184 22.3702L13.344 12.9958C14.2145 12.1722 14.2145 10.8157 13.3688 9.9921Z" />
-						</svg>
-					</a>
-					<div class="hero__comment">
-						No commitment • Secure payment • 100% satisfaction
-						guaranteed
-					</div>
-				</div>
-			</section>
-			<section class="page__how how">
-				<div class="how__container">
-					<h2 class="how__title title" data-watch>How does it’s work</h2>
-					<div class="how__items">
-						<div class="how__item item-how" data-watch>
-							<span>1</span>
-							<span>Drop your photo</span>
-						</div>
-						<div class="how__item item-how" data-watch>
-							<span>2</span>
-							<span>Choose hairstyle and hair color</span>
-						</div>
-						<div class="how__item item-how" data-watch>
-							<span>3</span>
-							<span>Pay or wait</span>
-						</div>
-						<div class="how__item item-how" data-watch>
-							<span>4</span>
-							<span>Get photo on your email</span>
+						<a href="#" class="hero__button button" data-watch>
+							<span>Start Your Virtual Makeover</span>
+							<span>Start Your Makeover</span>
+							<svg
+								viewBox="0 0 14 23"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M13.3688 9.9921L3.74327 0.617694C2.89762 -0.205898 1.50477 -0.205898 0.659115 0.617694C-0.186542 1.44129 -0.186542 2.79779 0.659115 3.62138L8.71772 11.4939L0.634242 19.3665C-0.211414 20.1901 -0.211414 21.5466 0.634242 22.3702C1.05707 22.782 1.62913 23 2.17632 23C2.74838 23 3.29557 22.782 3.7184 22.3702L13.344 12.9958C14.2145 12.1722 14.2145 10.8157 13.3688 9.9921Z" />
+							</svg>
+						</a>
+						<div class="hero__comment">
+							No commitment • Secure payment • 100% satisfaction
+							guaranteed
 						</div>
 					</div>
-				</div>
-			</section>
-			<section class="page__hairstyles hairstyles">
-				<div class="hairstyles__container">
-					<div class="hairstyles__content">
-						<h2 class="hairstyles__title title" data-watch>
-							30+ Hairstyles & 3 Hair Colors
-						</h2>
-						<ul class="hairstyles__list">
-							<li data-watch>Try 30+ trendy hairstyles and 3 hair colors</li>
-							<li data-watch>See realistic results in minutes</li>
-							<li data-watch>Experiment risk-free before your next haircut</li>
-							<li data-watch>Get inspiration for your new look</li>
-						</ul>
-					</div>
-					<div class="hairstyles__images">
-						<div class="hairstyles__image">
-							<div class="hairstyles__box">
-								<img src="img/girls/07.webp" srcset="img/girls/07.webp 1x, img/girls/07-ret.webp 2x" alt="Image" />
+				</section>
+				<section class="page__how how">
+					<div class="how__container">
+						<h2 class="how__title title" data-watch>How does it’s work</h2>
+						<div class="how__items">
+							<div class="how__item item-how" data-watch>
+								<span>1</span>
+								<span>Drop your photo</span>
 							</div>
-						</div>
-						<div class="hairstyles__image" data-prlx-mouse data-prlx-dxr data-prlx-cx="50" data-prlx-cy="50">
-							<div class="hairstyles__box">
-								<img src="img/girls/01.webp" srcset="img/girls/01.webp 1x, img/girls/01-ret.webp 2x" alt="Image" />
+							<div class="how__item item-how" data-watch>
+								<span>2</span>
+								<span>Choose hairstyle and hair color</span>
 							</div>
-						</div>
-						<div class="hairstyles__image" data-prlx-mouse data-prlx-cx="50" data-prlx-cy="50">
-							<div class="hairstyles__box">
-								<img src="img/girls/08.webp" srcset="img/girls/08.webp 1x, img/girls/08-ret.webp 2x" alt="Image" />
+							<div class="how__item item-how" data-watch>
+								<span>3</span>
+								<span>Pay or wait</span>
 							</div>
-						</div>
-						<div class="hairstyles__image" data-prlx-mouse data-prlx-dxr data-prlx-cx="30" data-prlx-cy="40">
-							<div class="hairstyles__box">
-								<img src="img/girls/09.webp" srcset="img/girls/09.webp 1x, img/girls/09-ret.webp 2x" alt="Image" />
+							<div class="how__item item-how" data-watch>
+								<span>4</span>
+								<span>Get photo on your email</span>
 							</div>
-						</div>
-						<div class="hairstyles__image" data-prlx-mouse data-prlx-cx="30" data-prlx-cy="30">
-							<div class="hairstyles__box">
-								<img src="img/girls/10.webp" srcset="img/girls/10.webp 1x, img/girls/10-ret.webp 2x" alt="Image" />
-							</div>
-						</div>
-						<div class="hairstyles__image" data-prlx-mouse data-prlx-cx="50" data-prlx-cy="50">
-							<div class="hairstyles__box">
-								<img src="img/girls/11.webp" srcset="img/girls/11.webp 1x, img/girls/11-ret.webp 2x" alt="Image" />
-							</div>
-						</div>
-						<div class="hairstyles__image" data-prlx-mouse data-prlx-dxr>
-							<div class="hairstyles__box">
-								<img src="img/girls/12.webp" srcset="img/girls/12.webp 1x, img/girls/12-ret.webp 2x" alt="Image" />
-							</div>
-						</div>
-						<div class="hairstyles__image" data-prlx-mouse data-prlx-cx="50" data-prlx-cy="50">
-							<div class="hairstyles__box">
-								<img src="img/girls/13.webp" srcset="img/girls/13.webp 1x, img/girls/13-ret.webp 2x" alt="Image" />
-							</div>
-						</div>
-						<img class="hairstyles__dots" src="img/hairstyles/dots.svg" alt="Image" />
-						<div class="hairstyles__block"></div>
-					</div>
-				</div>
-			</section>
-			<section class="page__pricing pricing">
-				<div class="pricing__container">
-					<h2 class="pricing__title title" data-watch>Pricing</h2>
-					<div class="pricing__plans">
-						<div class="pricing__plan plan" data-watch>
-							<label class="plan__type">Free</label>
-							<div class="plan__price">$0</div>
-							<ul class="plan__features">
-								<li>Only 1 photo</li>
-								<li>Get photo after 24h</li>
-								<li>With watermark</li>
-							</ul>
-							<a href="" class="plan__button">Get started for free</a>
-						</div>
-						<div class="pricing__plan plan plan--black" data-watch>
-							<label class="plan__type">Pro</label>
-							<div class="plan__price">$9.90</div>
-							<ul class="plan__features">
-								<li>Get 5 hairstyles or colors</li>
-								<li>Get photo after 5-10 min</li>
-								<li>Without watermark</li>
-							</ul>
-							<a href="" class="plan__button">Get</a>
 						</div>
 					</div>
-					<div class="pricing__contact" data-watch>
-						<a href="#">Contact us</a> if you need more 🩷
-					</div>
-				</div>
-			</section>
-			<section class="page__help help">
-				<div class="help__container">
-					<div class="help__block">
-						<img src="img/help_bg.webp" srcset="img/help_bg.webp 1x, img/help_bg-ret.webp 2x" alt="Image">
-						<div class="help__content">
-							<h2 class="help__title" data-watch="">
-								Let us help you to make <br> a right choise
+				</section>
+				<section class="page__hairstyles hairstyles">
+					<div class="hairstyles__container">
+						<div class="hairstyles__content">
+							<h2 class="hairstyles__title title" data-watch>
+								30+ Hairstyles & 3 Hair Colors
 							</h2>
-							<a href="#" class="help__button button" data-watch>
-								<div>Start Your <span>Virtual</span> Makeover</div>
-								<svg viewBox="0 0 14 23" xmlns="http://www.w3.org/2000/svg">
-									<path d="M13.3688 9.9921L3.74327 0.617694C2.89762 -0.205898 1.50477 -0.205898 0.659115 0.617694C-0.186542 1.44129 -0.186542 2.79779 0.659115 3.62138L8.71772 11.4939L0.634242 19.3665C-0.211414 20.1901 -0.211414 21.5466 0.634242 22.3702C1.05707 22.782 1.62913 23 2.17632 23C2.74838 23 3.29557 22.782 3.7184 22.3702L13.344 12.9958C14.2145 12.1722 14.2145 10.8157 13.3688 9.9921Z" />
-								</svg>
-							</a>
+							<ul class="hairstyles__list">
+								<li data-watch>Try 30+ trendy hairstyles and 3 hair colors</li>
+								<li data-watch>See realistic results in minutes</li>
+								<li data-watch>Experiment risk-free before your next haircut</li>
+								<li data-watch>Get inspiration for your new look</li>
+							</ul>
+						</div>
+						<div class="hairstyles__images">
+							<div class="hairstyles__image">
+								<div class="hairstyles__box">
+									<img
+										src="@img/girls/07.jpg"
+										srcset="img/girls/07.jpg 1x, img/girls/07-ret.jpg 2x"
+										alt="Image"
+										/>
+								</div>
+							</div>
+							<div class="hairstyles__image" data-prlx-mouse
+							data-prlx-dxr
+							data-prlx-cx="50"
+							data-prlx-cy="50" >
+								<div class="hairstyles__box">
+									<img
+									src="@img/girls/01.jpg"
+									srcset="img/girls/01.jpg 1x, img/girls/01-ret.jpeg 2x"
+									alt="Image"
+									/>
+								</div>
+							</div>
+							<div class="hairstyles__image" data-prlx-mouse
+							data-prlx-cx="50"
+							data-prlx-cy="50">
+								<div class="hairstyles__box">
+									<img
+									src="@img/girls/08.jpg"
+									srcset="img/girls/08.jpg 1x, img/girls/08-ret.jpg 2x"
+										alt="Image"
+										/>
+								</div>
+							</div>
+							<div class="hairstyles__image" data-prlx-mouse
+							data-prlx-dxr 
+							data-prlx-cx="30"
+							data-prlx-cy="40" >
+								<div class="hairstyles__box">
+									<img
+									src="@img/girls/09.jpg"
+									srcset="img/girls/09.jpg 1x, img/girls/09-ret.jpg 2x"
+									alt="Image"
+									/>
+								</div>
+							</div> 
+							<div class="hairstyles__image" data-prlx-mouse
+							data-prlx-cx="30"
+							data-prlx-cy="30" >
+								<div class="hairstyles__box">
+									<img
+									src="@img/girls/10.jpg"
+									srcset="img/girls/10.jpg 1x, img/girls/10-ret.jpg 2x"
+										alt="Image"
+										/>
+								</div>
+							</div>
+							<div class="hairstyles__image" data-prlx-mouse
+							data-prlx-cx="50"
+							data-prlx-cy="50" >
+								<div class="hairstyles__box">
+									<img
+									src="@img/girls/11.jpg"
+									srcset="img/girls/11.jpg 1x, img/girls/11-ret.jpg 2x"
+										alt="Image"
+										/>
+								</div>
+							</div>
+							<div class="hairstyles__image" data-prlx-mouse
+							data-prlx-dxr>
+								<div class="hairstyles__box">
+									<img
+									src="@img/girls/12.jpg"
+									srcset="img/girls/12.jpg 1x, img/girls/12-ret.jpg 2x"
+										alt="Image"
+										 />
+								</div>
+							</div>
+							<div class="hairstyles__image" 	data-prlx-mouse
+							data-prlx-cx="50"
+							data-prlx-cy="50">
+								<div class="hairstyles__box">
+									<img
+									src="@img/girls/13.jpg"
+									srcset="img/girls/13.jpg 1x, img/girls/13-ret.jpg 2x"
+										alt="Image"
+									 />
+								</div>
+							</div>
+							<img class="hairstyles__dots"
+								src="@img/hairstyles/dots.svg"
+								alt="Image"/>
+							<div class="hairstyles__block"></div>
 						</div>
 					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<div class="footer__info">
-					Aihairchager.io 2024
-				</div>
-				<div class="footer__menu menu">
-					<nav class="menu__body">
-						<ul class="menu__list">
-							<li class="menu__item"><a href="" class="menu__link">
-									Terms of service
-								</a></li>
-							<li class="menu__item"><a href="" class="menu__link">
-									Copyright
-								</a></li>
-							<li class="menu__item">
-								<a href="" class="menu__link">
-									Terms of Payment
+				</section>
+				<section class="page__pricing pricing">
+					<div class="pricing__container">
+						<h2 class="pricing__title title" data-watch>Pricing</h2>
+						<div class="pricing__plans">
+							<div class="pricing__plan plan" data-watch>
+								<label class="plan__type">Free</label>
+								<div class="plan__price">$0</div>
+								<ul class="plan__features">
+									<li>Only 1 photo</li>
+									<li>Get photo after 24h</li>
+									<li>With watermark</li>
+								</ul>
+								<a href="" class="plan__button">Get started for free</a>
+							</div>
+							<div class="pricing__plan plan plan--black" data-watch>
+								<label class="plan__type">Pro</label>
+								<div class="plan__price">$9.90</div>
+								<ul class="plan__features">
+									<li>Get 5 hairstyles or colors</li>
+									<li>Get photo after 5-10 min</li>
+									<li>Without watermark</li>
+								</ul>
+								<a href="" class="plan__button">Get</a>
+							</div>
+						</div>
+						<div class="pricing__contact" data-watch>
+							<a href="#">Contact us</a> if you need more 🩷
+						</div>
+					</div>
+				</section>
+				<section class="page__help help">
+					<div class="help__container">
+						<div class="help__block">
+							<img src="@img/help_bg.jpg" srcset="img/help_bg.jpg 1x, img/help_bg-ret.jpg 2x" alt="Image">
+							<div class="help__content">
+								<h2 class="help__title" data-watch="">
+									Let us help you to make <br> a right choise
+								</h2>
+								<a href="#" class="help__button button" data-watch>
+									<div>Start Your <span>Virtual</span> Makeover</div>
+									<svg
+										
+										viewBox="0 0 14 23"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M13.3688 9.9921L3.74327 0.617694C2.89762 -0.205898 1.50477 -0.205898 0.659115 0.617694C-0.186542 1.44129 -0.186542 2.79779 0.659115 3.62138L8.71772 11.4939L0.634242 19.3665C-0.211414 20.1901 -0.211414 21.5466 0.634242 22.3702C1.05707 22.782 1.62913 23 2.17632 23C2.74838 23 3.29557 22.782 3.7184 22.3702L13.344 12.9958C14.2145 12.1722 14.2145 10.8157 13.3688 9.9921Z" />
+									</svg>
 								</a>
-							</li>
-							<li class="menu__item"><a href="" class="menu__link">
-									Contacts
-								</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<script src="js/app.min.js?_v=20241109104725"></script>
-</body>
-
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_js.htm',{})
+	</body>
 </html>
