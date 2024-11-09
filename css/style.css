@@ -388,7 +388,7 @@ h6 {
   transition: opacity .7s ease-in-out
 }
 .slide:nth-child(1) {
-  background-image: url(img/girls/01.webp);
+  background-image: url(../img/girls/01.webp);
   background-size: cover;
   background-position: center
 }
@@ -1324,7 +1324,7 @@ h6 {
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:2dppx) {
   .slide:nth-child(1) {
-    background-image: url(img/girls/01-ret.webp)
+    background-image: url(../img/girls/01-ret.webp)
   }
   .slide:nth-child(2) {
     background-image: url(img/girls/02-ret.webp)
