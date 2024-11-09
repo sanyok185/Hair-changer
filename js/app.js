@@ -508,7 +508,7 @@
             if (!currentSlide.src) currentSlide.src = currentSlide.getAttribute("data-src");
             currentSlide.classList.add("active");
             currentSlide.style.opacity = "1";
-            setTimeout(showSlides, 3e3);
+            setTimeout(showSlides, 3500);
         }
         showSlides();
         window["FLS"] = false;

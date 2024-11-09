@@ -614,6 +614,9 @@ h6 {
   gap: 2rem
 }
 .pricing__contact {
+  display: flex;
+  align-items: center;
+  gap: .3125rem;
   transition: all .4s ease-in .55s;
   opacity: 0;
   -webkit-transform: translate(0,.625rem);
@@ -624,6 +627,9 @@ h6 {
   opacity: 1;
   -webkit-transform: translate(0);
   transform: translate(0)
+}
+.pricing__contact img {
+  width: 1.0625rem
 }
 .pricing__contact a {
   text-decoration: underline
